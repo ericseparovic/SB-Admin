@@ -1,18 +1,18 @@
 package com.sb_admin.admin.models;
 
 public class User {
-    private Long id;
+    private Integer id;
     private String name;
     private String lastName;
     private String email;
     private String phone;
     private String password;
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
